@@ -1,0 +1,169 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1b1a1a;
+  color: white;
+  min-height: 100vh;
+}
+
+body .main-header {
+  background-color: red;
+  height: 3em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body .main-header .header-main-content {
+  position: absolute;
+  top: calc(-100vh + 3em);
+  left: 0;
+  right: 0;
+  bottom: 3em;
+  background-color: rgba(0, 98, 255, 0.466);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+body .main-header .header-main-content ul.header-main-content-list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+}
+
+body .main-header .header-main-content ul.header-main-content-list-items li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 4vh;
+  -webkit-box-shadow: 30px -10px 50px rgba(0, 0, 0, 0.7) inset, -30px -10px 50px rgba(0, 0, 0, 0.7) inset;
+          box-shadow: 30px -10px 50px rgba(0, 0, 0, 0.7) inset, -30px -10px 50px rgba(0, 0, 0, 0.7) inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main-header .header-main-content ul.header-main-content-list-items li a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  padding: 10% 0;
+  text-decoration: none;
+  color: whitesmoke;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .main-header .header-main-content-hidden {
+  top: 150vh;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+body .main-header .header-main {
+  background-color: rgba(23, 15, 207, 0.938);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body .main-content {
+  background-color: rgba(3, 3, 3, 0.87);
+}
+
+body .main-content section.main-content-home {
+  background-image: url(../img/portada.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main-content section.main-content-home p {
+  font-size: 15vw;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 4px 4px 6px rgba(9, 115, 236, 0.692);
+}
+
+body .main-content section.main-content-section {
+  min-height: 100vh;
+  padding: 1em;
+  -webkit-box-shadow: 0px -1px 1px white inset;
+          box-shadow: 0px -1px 1px white inset;
+}
+
+body .main-content section.main-content-section article {
+  padding: 0.5em;
+  text-align: justify;
+}
+
+body .main-content section.main-content-section:target .main-content-home-paragraph {
+  color: white;
+}
+
+body .main-content section.main-content-section:target {
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+body .main-footer {
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+body .main-footer ul {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main-footer ul li {
+  padding: 15% 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  list-style-type: none;
+  text-align: center;
+  -webkit-box-shadow: 0px -1px 1px white inset;
+          box-shadow: 0px -1px 1px white inset;
+}
+/*# sourceMappingURL=styles.css.map */
