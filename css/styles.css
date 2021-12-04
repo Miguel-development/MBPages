@@ -32,8 +32,8 @@ body .main-header .header-main-content {
   right: 0;
   bottom: 3em;
   background-color: rgba(0, 98, 255, 0.866);
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 body .main-header .header-main-content ul.header-main-content-list-items {
@@ -79,8 +79,8 @@ body .main-header .header-main-content ul.header-main-content-list-items li a {
 
 body .main-header .header-main-content-hidden {
   top: 150vh;
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 body .main-header .header-main {
