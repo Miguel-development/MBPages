@@ -19,7 +19,7 @@ async function getVideosFromPlayList(){
     const apiKey = "AIzaSyBeEO3M1L-Ysd4mtYlfiCJI-6AK0jjSpeY"
     const url_base = "https://www.googleapis.com/youtube/v3/playlistItems"
     const part = "snippet"
-    const maxResults = 3;
+    const maxResults = 50;
     const divParentVideos = document.getElementsByClassName("videos-playLists-main")[0];
     var url = "";
 
