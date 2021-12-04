@@ -31,7 +31,7 @@ body .main-header .header-main-content {
   left: 0;
   right: 0;
   bottom: 3em;
-  background-color: rgba(0, 98, 255, 0.466);
+  background-color: rgba(0, 98, 255, 0.866);
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
@@ -74,6 +74,7 @@ body .main-header .header-main-content ul.header-main-content-list-items li a {
   color: whitesmoke;
   -webkit-transition: all 1s;
   transition: all 1s;
+  font-size: 2.5vh;
 }
 
 body .main-header .header-main-content-hidden {
@@ -136,6 +137,35 @@ body .main-content section.main-content-section:target .main-content-home-paragr
 body .main-content section.main-content-section:target {
   background-color: whitesmoke;
   color: rgba(0, 0, 0, 0.9);
+}
+
+body .main-content section#courses {
+  padding: 0;
+}
+
+body .main-content section#courses article div {
+  width: 100% !important;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(160px, 1fr);
+      grid-template-columns: minmax(160px, 1fr);
+  row-gap: 0.3em;
+}
+
+body .main-content section#courses article div iframe {
+  width: 100%;
+  height: 35vh;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+body .main-content section#courses article div h2 {
+  margin: 3.5em 0 1em 0;
+  text-align: center;
+  font-size: 4vh;
+  text-shadow: 3px 3px 6px rgba(9, 115, 236, 0.692);
 }
 
 body .main-footer {
