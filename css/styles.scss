@@ -108,7 +108,7 @@ body{
                 width:100% !important;
                 min-height:100vh;
                 display:grid;
-                grid-template-columns: minmax(160px,1fr);
+                grid-template-columns: minmax(120px,1fr);
                 row-gap:0.3em;
                 & iframe{
                     width:100%;

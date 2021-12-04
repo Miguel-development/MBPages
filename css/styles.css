@@ -148,8 +148,8 @@ body .main-content section#courses article div {
   min-height: 100vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(160px, 1fr);
-      grid-template-columns: minmax(160px, 1fr);
+  -ms-grid-columns: minmax(120px, 1fr);
+      grid-template-columns: minmax(120px, 1fr);
   row-gap: 0.3em;
 }
 
